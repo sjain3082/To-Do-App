@@ -41,7 +41,7 @@ const Todo = () => {
         setArray([...Array, Inputs]);
         setInputs({ title: "", body: "" });
         toast.success("Your Task Is Added");
-        toast.error("Your Task Is Not Saved ! Please SignUp");
+        // toast.error("Your Task Is Not Saved ! Please SignUp");
       }
     }
   };
